@@ -1,0 +1,1 @@
+A Project to Practice JS, HTML, CSS and DOM manipulation.
