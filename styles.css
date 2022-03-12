@@ -1,34 +1,52 @@
 body {
-   
-   
-   
-}
-#container {
-    display:grid; 
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    border: solid black 2px;
-    width: 400px; 
-    height: 400px; 
-    margin: auto; 
-   
-    
-  
- 
 }
 
-.square {
-    border: solid green 2px; 
+.btnContainer {
+    display: flex; 
+    justify-content: space-around;
+    margin: 2%;
 }
 
-.black {
-    background-color: black;
-}
-
-.white {
+button {
+    height: 3em; 
+    width: 5em;
     background-color: white;
 }
 
-.aqua {
-    background-color: aquamarine; 
+#container {
+    
+    display: grid; 
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border: solid black 2px;
+    background-color: white;
+    width: 70%; 
+    height: 70%; 
+    margin: auto; 
+   
 }
+
+#etch-body {
+    display: flex;
+    flex-direction: column;
+    width: 35vw; 
+    height: 35vw; 
+    border: solid black 1px; 
+    margin: auto; 
+    background-color: rgb(250, 24, 24);
+}
+
+header {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 3vw;
+    margin: 2%;   
+}
+
+
+.square {
+    background-color: white;    
+}
+
+
+
